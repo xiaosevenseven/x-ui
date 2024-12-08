@@ -1,0 +1,20 @@
+{
+  "name": "x-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm -c @x-ui/play dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@x-ui/components": "workspace:^",
+    "@x-ui/hooks": "workspace:^",
+    "@x-ui/theme-chalk": "workspace:^",
+    "@x-ui/utils": "workspace:^",
+    "typescript": "^5.7.2",
+    "vue": "^3.5.13"
+  }
+}
